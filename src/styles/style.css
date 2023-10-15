@@ -207,6 +207,7 @@ header::before {
 
 .card__1 {
   position: relative;
+  padding-bottom: 100px;
 }
 
 .card__1::before {
@@ -266,12 +267,13 @@ header::before {
   margin-bottom: 20px;
 }
 
-.card__1-line p {
+.card__1-line h3 {
   padding: 5px 0 5px 10px;
   text-transform: uppercase;
   color: var(--white);
   font-size: 14px;
   font-weight: 700;
+  font-family: "Open Sans", serif;
 }
 
 .card__1-par {
@@ -285,4 +287,75 @@ header::before {
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
+}
+
+.card__2 {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.card__2::before {
+  content: '';
+  display: block;
+  background-image: url(../images/background.png);
+  background-color: var(--brown);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.card__2-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--black-op);
+}
+
+
+.card__2-title {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+
+.card__2-text {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: "Neucha", sans-serif;
+  color: var(--white);
+  width: 502px;
+}
+
+.col-2 {
+  vertical-align: middle;
+}
+
+.card__2-line {
+  background: var(--white);
+  margin-bottom: 20px;
+}
+
+.card__2-line h3 {
+  padding: 5px 0 5px 10px;
+  text-transform: uppercase;
+  color: var(--brown);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+}
+
+.card__2-par {
+  display: flex;
+  gap: 30px;
+}
+
+.card__2-par p {
+  color: var(--white);
 }
