@@ -457,6 +457,15 @@ h3 {
   margin-bottom: 97px;
 }
 
+.footer-text p{
+  margin-bottom: 16px;
+}
+
+.footer-text p:nth-last-child(){
+  margin-bottom: 0;
+}
+
+
 .footer-text a {
   color: #007DC1;
   text-decoration-line: underline;
