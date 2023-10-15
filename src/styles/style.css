@@ -99,7 +99,6 @@ h3 {
 
 .header-link {
   margin-left: 570px;
-  margin-bottom: 100px;
 }
 
 .link {
@@ -109,6 +108,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase; 
 }
+
 
 header::before {
   content: '';
@@ -124,8 +124,36 @@ header::before {
   opacity: 0.1;
 }
 
+.video {
+  /* position: relative; */
+  height: 913px;
+  margin-bottom: -100px;
+}
+
+.main__title {
+  color: var(--main);
+  text-align: center;
+  margin-top: 73px;
+  margin-bottom: 27px;
+}
+
+.main__text {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 
+.main__video {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.navigation {
+  background: var(--main-black);
+  height: 913px;
+}
 
 
 
