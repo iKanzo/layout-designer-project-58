@@ -152,8 +152,54 @@ header::before {
 
 .navigation {
   background: var(--main-black);
-  height: 913px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  column-count: 3;
+}
+
+.card {
+  width: 350px;
+  height: 323px;
+  background-color: var(--holy);
+}
+
+.card-1 {
+  background-color: var(--main-black);
+}
+
+.card__title-main {
+  font-size: 52px;
+  color: var(--main);
+  font-weight: 400;
+}
+
+.card__subtitle-main {
+  font-size: 52px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.card__title {
+  font-size: 64px;
+  font-weight: 400;
+  color: var(--main-black);
+  padding: 24px 0 40px 24px;
+  line-height: 1;
+}
+
+.card__subtitle {
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--main);
+  padding-left: 24px;
+}
+
 
 
 
