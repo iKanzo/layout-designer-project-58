@@ -71,6 +71,8 @@ h3 {
 
 .title {
   min-width: 100%;
+  position: relative;
+  margin-bottom: 185px;
 }
 
 .header__title span {
@@ -78,16 +80,16 @@ h3 {
 }
 
 .header__img {
-  position: relative;
+  position: absolute;
   top: -55px;
-  right: 820px;
+  right: -270px;
   height: 525px;
   z-index: -1;
 }
 
+
 .header-text {
   display: flex;
-  margin-top: -90px;
   gap: 30px;
 }
 
@@ -99,6 +101,7 @@ h3 {
 .header-link {
   margin-left: 570px;
   cursor: pointer;
+  margin-bottom: 100px;
 }
 
 .link {
@@ -109,10 +112,17 @@ h3 {
   text-transform: uppercase;
 }
 
+.link:hover {
+  background: #ea7600;
+}
+
+.header__top {
+  position: relative;
+}
 
 .header__top::before {
   content: '';
-  background-image: url(../../images/background.png);
+  background-image: url(../images/background.png);
   background-color: var(--brown);
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,9 +197,6 @@ h3 {
   background-color: var(--holy);
 }
 
-.cards_item:hover {
-  opacity: 0.5;
-}
 
 .card-1 {
   background-color: var(--main-black);
@@ -240,6 +247,16 @@ h3 {
   right: 0;
   bottom: 0;
   opacity: 0.1;
+}
+
+.card:hover {
+  background-color: var(--main);
+  
+  /* opacity: 0.5; */
+}
+
+.cards_item:hover {
+  color: var(--white);
 }
 
 .cols {
