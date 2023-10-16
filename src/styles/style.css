@@ -70,6 +70,7 @@ h3 {
 .header {
   display: flex;
   position: relative;
+  padding-top: 100px;
 }
 
 .title {
@@ -84,7 +85,7 @@ h3 {
 
 .header__img {
   position: absolute;
-  top: -55px;
+  top: 55px;
   right: -270px;
   height: 525px;
   z-index: -2;
