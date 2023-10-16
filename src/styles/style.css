@@ -97,7 +97,7 @@ h3 {
   gap: 30px;
   margin-top: 14px;
   column-count: 2;
-  flex-shrink: 0;
+  
 }
 
 .header-text p {  
@@ -108,7 +108,8 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  
+  text-align: left;
+  flex-shrink: 0;
 }
 
 .two-par p{
@@ -120,7 +121,7 @@ h3 {
   margin-top: 24px;
   margin-left: 570px;
   cursor: pointer;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .link {
@@ -217,6 +218,7 @@ h3 {
   flex-wrap: wrap;
   gap: 30px;
   column-count: 3;
+  padding-top: 100px;
 }
 
 .card {
@@ -225,6 +227,9 @@ h3 {
   background-color: var(--holy);
 }
 
+.card:hover{  
+  background-color: var(--main);
+}
 
 .card-1 {
   background-color: var(--main-black);
@@ -236,10 +241,18 @@ h3 {
   font-weight: 400;
 }
 
+.card__title-main:hover{  
+  color: var(--white);
+}
+
 .card__subtitle-main {
   font-size: 52px;
   color: var(--white);
   font-weight: 400;
+}
+
+.card__subtitle-main:hover{  
+  color: var(--white);
 }
 
 .card__title {
@@ -250,6 +263,10 @@ h3 {
   line-height: 1;
 }
 
+.card__title:hover{  
+  color: var(--white);
+}
+
 .card__subtitle {
   font-size: 34px;
   font-weight: 400;
@@ -257,9 +274,15 @@ h3 {
   padding-left: 24px;
 }
 
+.card__subtitle:hover{  
+  color: var(--white);
+}
+
+/* Section 1*/
 
 .card__1 {
   position: relative;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -277,16 +300,6 @@ h3 {
   opacity: 0.1;
 }
 
-.card:hover {
-  background-color: var(--main);
-
-  /* opacity: 0.5; */
-}
-
-.cards_item:hover {
-  color: var(--white);
-}
-
 .cols {
   column-count: 2;
   gap: 30px;
@@ -297,7 +310,6 @@ h3 {
   font-weight: 400;
   color: var(--black-op);
 }
-
 
 .card__1-title {
   font-size: 60px;
@@ -352,6 +364,7 @@ h3 {
 
 .card__2 {
   position: relative;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -421,6 +434,7 @@ h3 {
 }
 
 .footer {
+  padding-top: 100px;
   background: var(--white);
 }
 
@@ -428,7 +442,8 @@ h3 {
   background: var(--main-black);
   display: flex;
   justify-content: space-between;
-  padding: 55px;
+  /* padding: 55px; */
+  height: 190px;
 }
 
 .footer-title {
@@ -443,6 +458,7 @@ h3 {
   font-weight: 400;
   color: var(--white);
   line-height: 1.6;
+  margin-top: 38px;
   margin-bottom: 9px;
 }
 
@@ -474,6 +490,7 @@ h3 {
 }
 
 .footer-btn {
+  /* display: none; */
   border: none;
   color: transparent;
   position: relative;
@@ -483,9 +500,9 @@ h3 {
   content: '';
   display: block;
   position: absolute;
-  background-image: url(../../images/send.svg);
+  background-image: url(../images/send.svg);
   background-repeat: no-repeat;
-  top: -68px;
+  top: -50px;
   left: 353px;
   height: 50px;
   width: 70px;
