@@ -64,7 +64,9 @@ h3 {
 }
 
 /* Header */
-
+.header__top {
+  height: 913px;
+}
 .header {
   display: flex;
   position: relative;
@@ -95,7 +97,7 @@ h3 {
   gap: 30px;
   margin-top: 14px;
   column-count: 2;
-  
+  flex-shrink: 0;
 }
 
 .header-text p {  
