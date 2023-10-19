@@ -95,7 +95,7 @@ h3 {
 }
 
 .header__title {
-  margin-bottom: 185px;
+  margin: 0 0 185px;
   position: relative;
   z-index: 1;
 }
