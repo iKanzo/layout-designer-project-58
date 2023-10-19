@@ -157,7 +157,7 @@ h3 {
 
 /* Video */
 .video {
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 100px;
 }
 
@@ -186,7 +186,7 @@ h3 {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  top: 200px;
+  top: 192px;
 }
 
 
@@ -196,12 +196,12 @@ h3 {
 }
 
 #navigation {
-  padding: 100px 0 100px;
+  padding: 81px 0 100px;
   background: var(--main-black);
 }
 
 .nav__cards {
-  padding-top: 110px;
+  padding-top: 120px;
 }
 
 .nav__title {
@@ -245,7 +245,7 @@ h3 {
   font-size: 64px;
   color: var(--main-black);
   /* margin: -5px 0 30px; */
-  margin: -7px 0 30px;
+  margin: -5px 0 30px;
 }
 
 .nav__item-title {
