@@ -156,6 +156,11 @@ h3 {
 
 
 /* Video */
+.video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .video__title {  
   font-size: 60px;
   text-align: center;
@@ -181,7 +186,7 @@ h3 {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  top: 192px;
+  top: 200px;
 }
 
 
@@ -196,7 +201,7 @@ h3 {
 }
 
 .nav__cards {
-  padding-top: 100px;
+  padding-top: 110px;
 }
 
 .nav__title {
