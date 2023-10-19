@@ -186,7 +186,7 @@ h3 {
   font-size: 16px;
   line-height: 25.6px;
   text-align: center;
-  margin: 0 0 30px;
+  margin: 0 0 27px;
   
 }
 
@@ -195,10 +195,9 @@ h3 {
   display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
-  margin: 0 auto -95px;
+  margin: 0 auto -93px;
   width: 919px;
-  height: 569px;
-  
+  height: 570px;
   border: none;
 }
 
