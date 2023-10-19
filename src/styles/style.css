@@ -190,14 +190,14 @@ h3 {
   
 }
 
-.video {
+.video_img {
   box-sizing: border-box;
   display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
   margin: 0 auto -93px;
-  width: 919px;
-  height: 570px;
+  /* width: 919px;
+  height: 570px; */
   border: none;
 }
 
