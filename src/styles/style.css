@@ -162,7 +162,7 @@ h3 {
 /* Video */
 #video {
   padding-top: 100px;
-  margin-bottom: 7px;
+  margin-bottom: 14px;
   background: var(--white);
   /* position: relative; */
   /* padding-bottom: 105px; */
@@ -186,7 +186,7 @@ h3 {
   font-size: 16px;
   line-height: 25.6px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   
 }
 
@@ -195,7 +195,10 @@ h3 {
   display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
-  margin: 0 auto -100px;
+  margin: 0 auto -110px;
+  width: 919px;
+  height: 569px;
+  
   border: none;
 }
 
