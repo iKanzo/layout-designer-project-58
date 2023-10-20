@@ -309,8 +309,7 @@ h3 {
 }
 
 .cols__img {
-  z-index: 2;
-  box-shadow: 0 16px 32px 0 #00000026;
+  z-index: 1;
 }
 
 .card__title {
