@@ -407,27 +407,37 @@ h3 {
 
 
 /* Footer */
-
+#footer{
+  position: relative;
+  background: #b09a81;
+}
 .footer {
-  padding: 105px 0 111px;
+  padding: 100px 0 111px;
 }
 
 .footer__block {
   background: var(--main-black);
   padding: 0 55px;
-  margin: 0 0 60px;
+  margin: 0 0 73px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 122px;
   align-items: center;
 }
 
+.footer__block-title {
+  min-width: 393px;
+  
+}
+
 .footer__form {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px; 
 }
 
 .footer__form-title {
   font-size: 18px;
-  margin: 0 0 9px;
+  margin: 0 0 10px;
 }
 
 .flex {
@@ -439,21 +449,24 @@ h3 {
   width: 423px;
   height: 50px;
   padding: 15px;
-  border: 1px solid var #e3e3e3;
+  border: 1px solid #e3e3e3;
 }
 
 ::placeholder {
   color: #757575;
   font-size: 13.1px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .footer__form-btn {
-  width: 70px;
+  width: 63px;
   height: 50px;
   background: var(--main);
   border: none;
   position: relative;
   box-sizing: border-box;
+  left: 0;
 }
 
 .footer__form-btn:hover {
@@ -466,7 +479,7 @@ h3 {
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 23px;
+  left: 19px;
   top: 13px;
 }
 
