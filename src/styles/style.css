@@ -111,14 +111,12 @@ h3 {
 .header__img {
   height: 525px;
   position: absolute;
-  bottom: 235px;
+  bottom: 240px;
   right: -270px;  
 }
 
 
 .header__text {
-  margin: 0;
-  padding: 0;
   display: flex;  
   gap: 30px;
   justify-content: space-between;  
@@ -129,33 +127,17 @@ h3 {
   width: 50%;
 }
 
-/* .one-par p,
-.two-par p {
-  padding: 0;
-  margin: 0;
-} */
-
-.two-par {
-  display: flex;
-  flex-direction: column;
-}
-
-.two2 {
-  height: 50%;
+.two-par p:nth-last-child(2){
+  margin-bottom: 40px;
 }
 
 
-.two-par p:nth-child(2){
-  margin-top: -5px;
-}
-
-
-/* .header-link {
+.header-link {
   margin-top: 24px;
   margin-left: 570px;
   cursor: pointer;
   margin-bottom: 100px;
-} */
+}
 
 .link {
   display: inline-block;
@@ -165,8 +147,6 @@ h3 {
   background: var(--main);
   font-weight: 700;
   text-transform: uppercase;
-  /* margin: 0; */
-  margin-top: 23px;
 }
 
 .link:hover {
