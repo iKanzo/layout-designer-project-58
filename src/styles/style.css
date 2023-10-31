@@ -30,7 +30,6 @@ body {
   color: var(--black);
   margin: auto;
   overflow-x: hidden;
-  height: 100vh;
 }
 
 *{
@@ -62,7 +61,7 @@ h3 {
 
 .container {
   width: 1110px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .padding-100 {
@@ -93,8 +92,7 @@ h3 {
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0;
-  width: 100vw;  
+  bottom: 0; 
   opacity: 0.1;  
 }
 
