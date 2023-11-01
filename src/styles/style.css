@@ -30,16 +30,17 @@ body {
   color: var(--black);
   margin: auto;
   overflow-x: hidden;
+  height: 100vh;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-style: normal;
   line-height: 1.2em;
   font-weight: 400;
@@ -78,14 +79,14 @@ h3 {
 
 /* Header */
 
-.bg__main {
+.bg-main {
   position: relative;
   z-index: 1;
   background-color: var(--holy);
 }
 
-.bg__main::before {
-  content: '';
+.bg-main::before {
+  content: "";
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,17 +95,17 @@ h3 {
   right: 0;
   left: 0;
   bottom: 0;
-  width: 100vw;  
-  opacity: 0.1;  
+  width: 100vw;
+  opacity: 0.1;
 }
 
-.header__title {
+.header-title {
   margin: 0 0 185px;
   position: relative;
   z-index: 1;
 }
 
-.header__title span {
+.header-title span {
   color: var(--main);
 }
 
@@ -112,18 +113,18 @@ h3 {
   position: relative;
 }
 
-.header__img {
+.header-img {
   height: 525px;
   position: absolute;
   bottom: 240px;
-  right: -270px;  
+  right: -270px;
 }
 
 
-.header__text {
-  display: flex;  
+.header-text {
+  display: flex;
   gap: 30px;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .one-par,
@@ -131,7 +132,7 @@ h3 {
   width: 50%;
 }
 
-.two-par p:nth-last-child(2){
+.two-par p:nth-last-child(2) {
   margin-bottom: 40px;
 }
 
@@ -164,26 +165,26 @@ h3 {
 }
 
 /* Video */
-.video_section {
+.video-section {
   display: block;
   text-align: center;
-  padding: 100px 0;  
+  padding: 100px 0;
   background: var(--white);
 }
 
-.video__title {  
+.video-title {
   font-size: 60px;
   text-align: center;
   margin: 0 0 30px;
   padding: 1px 0;
 }
 
-.video__title span {
+.video-title span {
   color: var(--main);
 }
 
-.video__subtitle {
-  font-family: "Open Sans",sans-serif;
+.video-subtitle {
+  font-family: "Open Sans", sans-serif;
   color: #212529;
   font-weight: 400;
   font-size: 16px;
@@ -191,10 +192,10 @@ h3 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  
+
 }
 
-.video_img {
+.video-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
   margin-bottom: -200px;
@@ -207,22 +208,22 @@ h3 {
 }
 
 #navigation {
-  padding-top: 81px;
+  padding-top: 120px;
   background: var(--main-black);
 }
 
-.nav__cards {
+.nav-cards {
   padding-top: 120px;
 }
 
-.nav__title {
+.nav-title {
   font-size: 52px;
   color: var(--main);
   background: none;
 }
 
 
-.nav__list {
+.nav-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -230,12 +231,12 @@ h3 {
   padding: 0;
 }
 
-.nav__list .nav__title {
+.nav-list .nav-title {
   width: 350px;
   margin: -2px 0 15px;
 }
 
-.nav__list .nav__item {
+.nav-list .nav-item {
   width: 350px;
   padding: 24px;
   background: var(--holy);
@@ -243,47 +244,47 @@ h3 {
 
 
 
-.nav__title-52 {
+.nav-title-52 {
   font-size: 52px;
   margin: 0;
 }
 
 
-.nav__item-num {
+.nav-item-num {
   font-size: 64px;
   color: var(--main-black);
   margin: -5px 0 30px;
 }
 
-.nav__item-title {
+.nav-item-title {
   color: var(--main);
   margin-bottom: 15px;
 }
 
-.nav__item-text {
+.nav-item-text {
   color: var(--black);
   line-height: 1.6;
   margin: 0;
 }
 
 
-.nav__item:nth-child(-n + 3) {
+.nav-item:nth-child(-n + 3) {
   margin-bottom: 20px;
 }
 
-.nav__item:hover {
+.nav-item:hover {
   background-color: #fe8a02;
 }
 
-.nav__item:hover .nav__item-title {
+.nav-item:hover .nav-item-title {
   color: #fff;
 }
 
-.nav__item:hover .nav__item-num {
+.nav-item:hover .nav-item-num {
   color: #fff;
 }
 
-.nav__item:hover .nav__item-text {
+.nav-item:hover .nav-item-text {
   color: #fff;
 }
 
@@ -294,25 +295,25 @@ h3 {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.cols__img {
-  z-index: 1;  
+.cols-img {
+  z-index: 1;
 }
 
-.card__title {
+.card-title {
   font-size: 24px;
   line-height: 29px;
   color: var(--black-op);
   font-family: Neucha, cursive;
 }
 
-.card__subtitle {
+.card-subtitle {
   font-family: Neucha, cursive;
   font-size: 60px;
   line-height: 72px;
   margin: 0 0 30px;
 }
 
-.card__subtitle2 {
+.card-subtitle2 {
   font-family: Neucha, cursive;
   font-size: 34px;
   font-weight: 400;
@@ -325,7 +326,7 @@ h3 {
   margin: 0;
 }
 
-.how__appears {
+.how-appears {
   box-sizing: border-box;
   margin: 100px 0 20px;
   padding: 5px 0 5px 10px;
@@ -335,7 +336,7 @@ h3 {
   background: var(--brown);
 }
 
-.how__appears-title {
+.how-appears-title {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -343,7 +344,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.how__appears-text {
+.how-appears-text {
   margin: 0;
 }
 
@@ -352,7 +353,7 @@ h3 {
   justify-content: space-between;
 }
 
-.cols2 p{
+.cols2 p {
   width: 50%;
 }
 
@@ -385,7 +386,7 @@ h3 {
   padding: 100px 0 111px;
 }
 
-.footer__block {
+.footer-block {
   background: var(--main-black);
   padding: 0 55px;
   margin: 0 0 73px;
@@ -394,17 +395,17 @@ h3 {
   align-items: center;
 }
 
-.footer__block-title {
+.footer-block-title {
   min-width: 393px;
-  
+
 }
 
-.footer__form {
+.footer-form {
   padding-top: 40px;
-  padding-bottom: 40px; 
+  padding-bottom: 40px;
 }
 
-.footer__form-title {
+.footer-form-title {
   font-size: 18px;
   margin: 0 0 10px;
 }
@@ -414,7 +415,7 @@ h3 {
   justify-content: space-between;
 }
 
-.footer__form-input {
+.footer-form-input {
   width: 423px;
   height: 50px;
   padding: 15px;
@@ -428,7 +429,7 @@ h3 {
   line-height: 1.6;
 }
 
-.footer__form-btn {
+.footer-form-btn {
   width: 63px;
   height: 50px;
   background: var(--main);
@@ -438,11 +439,11 @@ h3 {
   left: 0;
 }
 
-.footer__form-btn:hover {
+.footer-form-btn:hover {
   background-color: #ea7600;
 }
 
-.footer__form-btn::before {
+.footer-form-btn::before {
   content: '';
   background-image: url("../images/send.svg");
   width: 24px;
@@ -452,20 +453,20 @@ h3 {
   top: 13px;
 }
 
-.footer__form-subscribe {
+.footer-form-subscribe {
   margin: 0;
   font-size: 12px;
 }
 
-.footer__form-link {
+.footer-form-link {
   font-size: 12px;
 }
 
-.footer__text {
+.footer-text {
   text-align: center;
   font-size: 14px;
 }
 
-.footer__text-link {
+.footer-text-link {
   color: #1085c5;
 }
