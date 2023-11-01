@@ -30,7 +30,6 @@ body {
   color: var(--black);
   margin: auto;
   overflow-x: hidden;
-  height: 100vh;
 }
 
 *{
@@ -208,7 +207,7 @@ h3 {
 }
 
 #navigation {
-  padding-top: 120px;
+  padding-top: 81px;
   background: var(--main-black);
 }
 
