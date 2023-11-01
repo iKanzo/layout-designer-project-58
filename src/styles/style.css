@@ -279,7 +279,6 @@ h3 {
 /* Sections */
 .img {
   vertical-align: middle;
-  /* box-shadow: 0px 16px 32px 0px #00000026 15%; */
   box-shadow: 0px 16px 32px 0px #00000026;
 }
 
@@ -340,8 +339,9 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
- 
-.two-par p:nth-last-child(2) {
+
+.cols2 p 
+{
   width: 50%;
 }
 
